@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 0;
+}
+nav ul li a {
+	color: #fff;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	background-color: #313234;
+	color: green;
+}
+.header-img {
+	display: inline-block;
+	margin: 10px 0;
+}
+.hero {
+	height: 100vh;
+	background-image: url("https://images.pexels.com/photos/334030/pexels-photo-334030.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slogan {
+	font-family: "Permanent Marker";
+	text-align: center;
+	padding: 30px 20px 20px 30px;
+	font-size: 50px;
+}
+ 
+.gallery {
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+}
+.photo {
+	width: 100%;
+}
+.gallery .photo {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+}
+.photo:last-of-type {
+	margin-right: 0;
+}
+.gallery img {
+	width: 100%;
+}
+
+
+.footer {
+	background-color: #2b2424;
+	font-family: "Kaushan Script";
+	color: #c51818;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+.map iframe {
+	width: 100%;
+}
+	
+@media(max-width: 767px) {
+	header {
+		background-color: red;
+		text-align: center;
+	}
+	nav ul {
+		float: none;
+	}
+	nav ul li {
+		display: block;
+		text-align: center;
+	}
+	.slogan {
+		font-size: 20px;
+	}
+	.gallery .photo {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.gallery {
+		padding: 0 30px;
+	}
+
+}
+	
+
+
+
+
+	
